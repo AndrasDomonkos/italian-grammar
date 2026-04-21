@@ -56,6 +56,14 @@ When "di cui" precedes a noun with an article, it expresses possession (= whose)
       },
     ],
   },
+  vocabulary: [
+    { word: "che", translation: "who / which / that", example: "Il libro che ho letto era bellissimo.", exampleTranslation: "The book that I read was beautiful." },
+    { word: "cui", translation: "whom / which (after prep.)", example: "La ragazza con cui parlo e mia cugina.", exampleTranslation: "The girl I am talking with is my cousin." },
+    { word: "il quale", translation: "who / which (masc.)", example: "Lo studente, il quale ha vinto il premio, e di Roma.", exampleTranslation: "The student, who won the prize, is from Rome." },
+    { word: "la quale", translation: "who / which (fem.)", example: "La professoressa, la quale insegna storia, e bravissima.", exampleTranslation: "The teacher, who teaches history, is excellent." },
+    { word: "chi", translation: "whoever / the one who", example: "Chi studia con impegno ottiene buoni risultati.", exampleTranslation: "Whoever studies diligently achieves good results." },
+    { word: "quello che", translation: "what / that which", example: "Quello che dici e molto interessante.", exampleTranslation: "What you are saying is very interesting." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

@@ -43,6 +43,14 @@ The Italian indefinite article means **"a" / "an"** in English. It has four form
       },
     ],
   },
+  vocabulary: [
+    { word: 'un cane', translation: 'a dog', example: 'Ho un cane molto simpatico.', exampleTranslation: 'I have a very nice dog.' },
+    { word: 'una pizza', translation: 'a pizza', example: 'Mangio una pizza margherita.', exampleTranslation: 'I eat a margherita pizza.' },
+    { word: 'un appartamento', translation: 'a flat', example: 'Cerco un appartamento in centro.', exampleTranslation: 'I am looking for a flat in the centre.' },
+    { word: 'una bicicletta', translation: 'a bicycle', example: 'Ho una bicicletta rossa.', exampleTranslation: 'I have a red bicycle.' },
+    { word: 'uno zaino', translation: 'a backpack', example: "C'è uno zaino in aula.", exampleTranslation: 'There is a backpack in the classroom.' },
+    { word: "un'amica", translation: 'a friend (f.)', example: "Ho un'amica in Italia.", exampleTranslation: 'I have a friend in Italy.' },
+  ],
   exercises: [
     {
       type: 'fill-blank',

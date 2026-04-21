@@ -59,6 +59,14 @@ Note: Days are lowercase in Italian. Only domenica is feminine; the rest are mas
       },
     ],
   },
+  vocabulary: [
+    { word: "che ora è", translation: "what time is it", example: "Che ora è? Sono le tre e mezza.", exampleTranslation: "What time is it? It is half past three." },
+    { word: "a che ora", translation: "at what time", example: "A che ora parte il treno?", exampleTranslation: "At what time does the train leave?" },
+    { word: "oggi", translation: "today", example: "Oggi è lunedì, il primo di aprile.", exampleTranslation: "Today is Monday, the first of April." },
+    { word: "domani", translation: "tomorrow", example: "Domani ho un esame importante.", exampleTranslation: "Tomorrow I have an important exam." },
+    { word: "ieri", translation: "yesterday", example: "Ieri siamo andati al cinema.", exampleTranslation: "Yesterday we went to the cinema." },
+    { word: "il compleanno", translation: "the birthday", example: "Il mio compleanno è il quindici maggio.", exampleTranslation: "My birthday is the fifteenth of May." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

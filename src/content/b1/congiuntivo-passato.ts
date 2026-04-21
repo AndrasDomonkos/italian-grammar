@@ -53,6 +53,14 @@ With essere, the participle agrees with the subject of the dependent clause:
       },
     ],
   },
+  vocabulary: [
+    { word: "penso che sia andato", translation: "I think he went", example: "Penso che sia andato a Roma la settimana scorsa.", exampleTranslation: "I think he went to Rome last week." },
+    { word: "credo che abbia detto", translation: "I believe he said", example: "Credo che abbia detto la verita.", exampleTranslation: "I believe he told the truth." },
+    { word: "spero che abbia capito", translation: "I hope he understood", example: "Spero che abbia capito la spiegazione.", exampleTranslation: "I hope he understood the explanation." },
+    { word: "e possibile che sia successo", translation: "it is possible that it happened", example: "E possibile che sia successo un incidente.", exampleTranslation: "It is possible that an accident happened." },
+    { word: "mi dispiace che tu abbia perso", translation: "I am sorry you lost", example: "Mi dispiace che tu abbia perso il treno.", exampleTranslation: "I am sorry that you missed the train." },
+    { word: "benche abbia studiato", translation: "although he/she studied", example: "Benche abbia studiato, non ha passato l'esame.", exampleTranslation: "Although he studied, he did not pass the exam." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

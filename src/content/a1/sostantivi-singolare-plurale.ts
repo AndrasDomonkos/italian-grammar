@@ -58,6 +58,14 @@ Most nouns ending in **-o** are masculine; most ending in **-a** are feminine. N
       },
     ],
   },
+  vocabulary: [
+    { word: 'città', translation: 'city', example: 'Roma è una città meravigliosa.', exampleTranslation: 'Rome is a wonderful city.' },
+    { word: 'negozio', translation: 'shop, store', example: 'Il negozio apre alle nove.', exampleTranslation: 'The shop opens at nine.' },
+    { word: 'posto', translation: 'place, seat', example: "C'è ancora un posto libero.", exampleTranslation: 'There is still a free seat.' },
+    { word: 'parola', translation: 'word', example: 'Non capisco questa parola.', exampleTranslation: 'I do not understand this word.' },
+    { word: 'mano', translation: 'hand (f.)', example: 'Laviamo le mani prima di mangiare.', exampleTranslation: 'We wash our hands before eating.' },
+    { word: 'problema', translation: 'problem (m.)', example: 'Non è un problema, dai!', exampleTranslation: 'It is not a problem, come on!' },
+  ],
   exercises: [
     {
       type: 'fill-blank',

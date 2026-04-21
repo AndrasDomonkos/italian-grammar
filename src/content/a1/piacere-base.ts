@@ -59,6 +59,14 @@ Place **non** before the indirect pronoun:
       },
     ],
   },
+  vocabulary: [
+    { word: "mi piace", translation: "I like (singular)", example: "Mi piace molto la musica jazz.", exampleTranslation: "I like jazz music a lot." },
+    { word: "mi piacciono", translation: "I like (plural)", example: "Mi piacciono i film di avventura.", exampleTranslation: "I like adventure films." },
+    { word: "ti piace", translation: "you like", example: "Ti piace cucinare la pasta?", exampleTranslation: "Do you like cooking pasta?" },
+    { word: "gli piace", translation: "he likes", example: "Gli piace giocare a tennis.", exampleTranslation: "He likes playing tennis." },
+    { word: "non mi piace", translation: "I do not like", example: "Non mi piace alzarmi presto.", exampleTranslation: "I do not like getting up early." },
+    { word: "le piace", translation: "she likes", example: "Le piace leggere romanzi storici.", exampleTranslation: "She likes reading historical novels." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

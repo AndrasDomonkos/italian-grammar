@@ -65,6 +65,14 @@ These verbs have irregular stems but use the **same endings**:
       },
     ],
   },
+  vocabulary: [
+    { word: "parlero", translation: "I will speak", example: "Domani parlero con il direttore.", exampleTranslation: "Tomorrow I will speak with the director." },
+    { word: "arrivera", translation: "he/she will arrive", example: "Il treno arrivera alle tre in punto.", exampleTranslation: "The train will arrive at three o'clock sharp." },
+    { word: "andremo", translation: "we will go", example: "Quest'estate andremo in Sicilia.", exampleTranslation: "This summer we will go to Sicily." },
+    { word: "sara", translation: "he/she/it will be", example: "Domani sara una bella giornata.", exampleTranslation: "Tomorrow will be a beautiful day." },
+    { word: "avranno", translation: "they will have", example: "I bambini avranno una sorpresa.", exampleTranslation: "The children will have a surprise." },
+    { word: "finira", translation: "it will finish", example: "Il film finira verso le undici.", exampleTranslation: "The film will finish around eleven." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

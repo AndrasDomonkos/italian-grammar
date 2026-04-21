@@ -59,6 +59,14 @@ In Italian, the prepositions **di, a, da, in, su** (and sometimes **con, per**) 
       },
     ],
   },
+  vocabulary: [
+    { word: "al", translation: "to the / at the (masc.)", example: "Vado al supermercato ogni lunedi.", exampleTranslation: "I go to the supermarket every Monday." },
+    { word: "della", translation: "of the (fem.)", example: "La porta della casa è aperta.", exampleTranslation: "The door of the house is open." },
+    { word: "nel", translation: "in the (masc.)", example: "Il gatto dorme nel letto.", exampleTranslation: "The cat sleeps in the bed." },
+    { word: "sulla", translation: "on the (fem.)", example: "Il libro è sulla scrivania.", exampleTranslation: "The book is on the desk." },
+    { word: "dal", translation: "from the (masc.)", example: "Vengo dal medico ogni mese.", exampleTranslation: "I go to the doctor every month." },
+    { word: "agli", translation: "to the (masc. pl., vowel)", example: "Ho scritto agli amici in Italia.", exampleTranslation: "I wrote to my friends in Italy." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

@@ -69,6 +69,14 @@ The congiuntivo imperfetto is the standard form in hypothetical if-clauses:
       },
     ],
   },
+  vocabulary: [
+    { word: "se studiassi", translation: "if I studied", example: "Se studiassi di piu, passerei l'esame.", exampleTranslation: "If I studied more, I would pass the exam." },
+    { word: "vorrei che tu venissi", translation: "I would like you to come", example: "Vorrei che tu venissi alla mia festa.", exampleTranslation: "I would like you to come to my party." },
+    { word: "magari potessi", translation: "if only I could", example: "Magari potessi viaggiare di piu!", exampleTranslation: "If only I could travel more!" },
+    { word: "come se fosse", translation: "as if it were", example: "Parla come se fosse il capo.", exampleTranslation: "He talks as if he were the boss." },
+    { word: "sembrava che piovesse", translation: "it seemed that it was raining", example: "Sembrava che piovesse fuori.", exampleTranslation: "It seemed that it was raining outside." },
+    { word: "speravo che arrivasse", translation: "I hoped he would arrive", example: "Speravo che arrivasse in tempo.", exampleTranslation: "I hoped he would arrive in time." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

@@ -56,6 +56,14 @@ The choice of avere vs essere follows the same rules as passato prossimo: essere
       },
     ],
   },
+  vocabulary: [
+    { word: "avro finito", translation: "I will have finished", example: "Avro finito il lavoro entro venerdi.", exampleTranslation: "I will have finished the work by Friday." },
+    { word: "sara arrivato", translation: "he will have arrived", example: "Quando chiami, sara gia arrivato.", exampleTranslation: "When you call, he will have already arrived." },
+    { word: "avranno mangiato", translation: "they will have eaten", example: "A quest'ora avranno gia mangiato.", exampleTranslation: "By this time they will have already eaten." },
+    { word: "avro studiato", translation: "I will have studied", example: "Avro studiato tutto prima dell'esame.", exampleTranslation: "I will have studied everything before the exam." },
+    { word: "sara partita", translation: "she will have left", example: "Forse sara gia partita.", exampleTranslation: "Maybe she will have already left." },
+    { word: "avremo visto", translation: "we will have seen", example: "Avremo visto tutti i musei entro la fine.", exampleTranslation: "We will have seen all the museums by the end." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

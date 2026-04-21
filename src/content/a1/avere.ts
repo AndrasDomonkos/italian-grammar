@@ -62,6 +62,14 @@ export const avere: Lesson = {
       },
     ],
   },
+  vocabulary: [
+    { word: 'fame', translation: 'hunger', example: 'Ho fame, voglio mangiare.', exampleTranslation: 'I am hungry, I want to eat.' },
+    { word: 'sete', translation: 'thirst', example: "Hai sete? Vuoi dell'acqua?", exampleTranslation: 'Are you thirsty? Do you want some water?' },
+    { word: 'fratello', translation: 'brother', example: 'Ho un fratello più giovane.', exampleTranslation: 'I have a younger brother.' },
+    { word: 'sorella', translation: 'sister', example: 'Lei ha due sorelle.', exampleTranslation: 'She has two sisters.' },
+    { word: 'paura', translation: 'fear', example: 'I bambini hanno paura del buio.', exampleTranslation: 'The children are afraid of the dark.' },
+    { word: 'ragione', translation: 'right, reason', example: 'Hai ragione, è un bel film.', exampleTranslation: 'You are right, it is a good film.' },
+  ],
   exercises: [
     {
       type: 'fill-blank',

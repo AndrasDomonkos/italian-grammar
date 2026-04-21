@@ -60,6 +60,14 @@ Replaces "di + noun" when referring to an unspecified quantity. It answers "how 
       },
     ],
   },
+  vocabulary: [
+    { word: "ne", translation: "of it / of them / some", example: "Vuoi del caffe? Ne prendo volentieri.", exampleTranslation: "Do you want coffee? I will gladly have some." },
+    { word: "ne parlo", translation: "I talk about it", example: "Di questo problema ne parlo con il medico.", exampleTranslation: "I talk about this problem with the doctor." },
+    { word: "ci vado", translation: "I go there", example: "Al mercato? Ci vado ogni sabato.", exampleTranslation: "The market? I go there every Saturday." },
+    { word: "ci penso", translation: "I think about it", example: "E una buona idea — ci penso su.", exampleTranslation: "It is a good idea — I will think about it." },
+    { word: "ce ne sono", translation: "there are some", example: "Ce ne sono ancora tre in frigo.", exampleTranslation: "There are still three of them in the fridge." },
+    { word: "non ne ho", translation: "I have none / I do not have any", example: "Purtroppo non ne ho abbastanza.", exampleTranslation: "Unfortunately I do not have enough of it." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

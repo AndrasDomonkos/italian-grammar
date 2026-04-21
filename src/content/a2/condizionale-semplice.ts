@@ -64,6 +64,14 @@ The conditional uses the **same stems as the future tense** but with different e
       },
     ],
   },
+  vocabulary: [
+    { word: "vorrei", translation: "I would like", example: "Vorrei un caffe macchiato, grazie.", exampleTranslation: "I would like a macchiato coffee, thank you." },
+    { word: "potrebbe", translation: "he/she/it could", example: "Potrebbe ripetere piu lentamente?", exampleTranslation: "Could you repeat more slowly?" },
+    { word: "dovrebbe", translation: "he/she should", example: "Dovresti dormire di piu.", exampleTranslation: "You should sleep more." },
+    { word: "sarebbe", translation: "it would be", example: "Sarebbe bello visitare Tokyo un giorno.", exampleTranslation: "It would be nice to visit Tokyo one day." },
+    { word: "mi piacerebbe", translation: "I would like", example: "Mi piacerebbe imparare il giapponese.", exampleTranslation: "I would like to learn Japanese." },
+    { word: "andresti", translation: "would you go", example: "Andresti in vacanza in Islanda?", exampleTranslation: "Would you go on holiday to Iceland?" },
+  ],
   exercises: [
     {
       type: 'fill-blank',

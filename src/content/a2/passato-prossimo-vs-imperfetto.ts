@@ -59,6 +59,14 @@ When one completed action interrupts an ongoing one:
       },
     ],
   },
+  vocabulary: [
+    { word: "mentre", translation: "while", example: "Mentre mangiavo ha suonato il telefono.", exampleTranslation: "While I was eating the phone rang." },
+    { word: "all'improvviso", translation: "suddenly", example: "All'improvviso ha iniziato a piovere.", exampleTranslation: "Suddenly it started to rain." },
+    { word: "di solito", translation: "usually", example: "Di solito andavo a scuola a piedi.", exampleTranslation: "I usually went to school on foot." },
+    { word: "una volta", translation: "once / one time", example: "Una volta ho incontrato un attore famoso.", exampleTranslation: "Once I met a famous actor." },
+    { word: "ogni anno", translation: "every year", example: "Ogni anno andavamo in vacanza in Toscana.", exampleTranslation: "Every year we went on holiday in Tuscany." },
+    { word: "quando ero piccolo", translation: "when I was young", example: "Quando ero piccolo sognavo di diventare pilota.", exampleTranslation: "When I was young I dreamed of becoming a pilot." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

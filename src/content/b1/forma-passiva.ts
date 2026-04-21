@@ -58,6 +58,14 @@ The agent (who performs the action) is introduced by **da**:
       },
     ],
   },
+  vocabulary: [
+    { word: "e stato scritto", translation: "it was written", example: "Il romanzo e stato scritto nel 1987.", exampleTranslation: "The novel was written in 1987." },
+    { word: "viene prodotto", translation: "it is produced", example: "Questo vino viene prodotto in Toscana.", exampleTranslation: "This wine is produced in Tuscany." },
+    { word: "e stata costruita", translation: "it was built (fem.)", example: "La cattedrale e stata costruita nel Medioevo.", exampleTranslation: "The cathedral was built in the Middle Ages." },
+    { word: "vengono venduti", translation: "they are sold", example: "I biglietti vengono venduti online.", exampleTranslation: "The tickets are sold online." },
+    { word: "e stato scoperto", translation: "it was discovered", example: "Il vaccino e stato scoperto nel secolo scorso.", exampleTranslation: "The vaccine was discovered in the last century." },
+    { word: "sara pubblicato", translation: "it will be published", example: "Il libro sara pubblicato in primavera.", exampleTranslation: "The book will be published in spring." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

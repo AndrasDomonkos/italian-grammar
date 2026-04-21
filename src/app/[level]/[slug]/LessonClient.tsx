@@ -6,14 +6,15 @@ import { useProgress } from '@/hooks/useProgress';
 import { ExerciseRenderer } from '@/components/ExerciseRenderer';
 import { LessonExplanation } from '@/components/LessonExplanation';
 import { LessonSummary } from '@/components/LessonSummary';
+import { VocabStudy } from '@/components/VocabStudy';
 import { Button, buttonVariants } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
 import { Badge } from '@/components/ui/badge';
-import { ChevronLeft, ChevronRight, BookOpen, Pencil, BarChart3 } from 'lucide-react';
+import { ChevronLeft, ChevronRight, BookOpen, Pencil, BarChart3, Languages } from 'lucide-react';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
 
-type Phase = 'explanation' | 'exercises' | 'summary';
+type Phase = 'explanation' | 'vocabulary' | 'exercises' | 'summary';
 
 interface Props {
   lesson: Lesson;
@@ -83,6 +84,14 @@ export function LessonClient({ lesson }: Props) {
       completedAt: new Date().toISOString(),
     });
     setPhase('summary');
+  }
+
+  function startVocabOrExercises() {
+    if (lesson.vocabulary?.length) {
+      setPhase('vocabulary');
+    } else {
+      startExercises();
+    }
   }
 
   function startExercises() {
@@ -163,11 +172,23 @@ export function LessonClient({ lesson }: Props) {
               )}
             >
               <BookOpen className="size-4" />
-              Explanation
+              <span className="hidden sm:inline">Explanation</span>
             </button>
+            {lesson.vocabulary?.length ? (
+              <button
+                onClick={() => setPhase('vocabulary')}
+                className={cn(
+                  'flex-1 flex items-center justify-center gap-1.5 py-1.5 rounded-md transition-colors',
+                  phase === 'vocabulary' ? 'bg-background shadow font-medium' : 'text-muted-foreground hover:text-foreground',
+                )}
+              >
+                <Languages className="size-4" />
+                <span className="hidden sm:inline">Vocabulary</span>
+              </button>
+            ) : null}
             <button
               onClick={() => {
-                if (phase === 'explanation') startExercises();
+                if (phase === 'explanation' || phase === 'vocabulary') startExercises();
                 else setPhase('exercises');
               }}
               className={cn(
@@ -176,7 +197,7 @@ export function LessonClient({ lesson }: Props) {
               )}
             >
               <Pencil className="size-4" />
-              Exercises
+              <span className="hidden sm:inline">Exercises</span>
             </button>
           </div>
         )}
@@ -185,10 +206,28 @@ export function LessonClient({ lesson }: Props) {
         {phase === 'explanation' && (
           <div className="space-y-6">
             <LessonExplanation explanation={lesson.explanation} />
-            <Button onClick={startExercises} size="lg" className="w-full gap-2">
-              <Pencil className="size-4" />
-              Start {lesson.exercises.length} Exercises
+            <Button onClick={startVocabOrExercises} size="lg" className="w-full gap-2">
+              {lesson.vocabulary?.length ? (
+                <><Languages className="size-4" /> Learn {lesson.vocabulary.length} Words</>
+              ) : (
+                <><Pencil className="size-4" /> Start {lesson.exercises.length} Exercises</>
+              )}
             </Button>
+          </div>
+        )}
+
+        {/* VOCABULARY PHASE */}
+        {phase === 'vocabulary' && lesson.vocabulary?.length && (
+          <div className="space-y-4">
+            <div className="flex items-center gap-2">
+              <Languages className="size-5 text-primary" />
+              <h2 className="font-semibold text-lg">Vocabulary</h2>
+              <Badge variant="secondary">{lesson.vocabulary.length} words</Badge>
+            </div>
+            <VocabStudy
+              words={lesson.vocabulary}
+              onComplete={startExercises}
+            />
           </div>
         )}
 

@@ -68,6 +68,14 @@ With **avere**, the participle **does not** agree with the subject:
       },
     ],
   },
+  vocabulary: [
+    { word: "ho mangiato", translation: "I ate", example: "Ho mangiato una buona pizza ieri sera.", exampleTranslation: "I ate a good pizza yesterday evening." },
+    { word: "hai dormito", translation: "you slept", example: "Hai dormito bene stanotte?", exampleTranslation: "Did you sleep well last night?" },
+    { word: "ha lavorato", translation: "he/she worked", example: "Ha lavorato tutto il giorno senza pausa.", exampleTranslation: "He worked all day without a break." },
+    { word: "abbiamo visto", translation: "we saw", example: "Abbiamo visto un bel film ieri.", exampleTranslation: "We saw a good film yesterday." },
+    { word: "avete finito", translation: "you (pl.) finished", example: "Avete finito i compiti per domani?", exampleTranslation: "Have you finished the homework for tomorrow?" },
+    { word: "hanno scritto", translation: "they wrote", example: "Hanno scritto una lettera al direttore.", exampleTranslation: "They wrote a letter to the director." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

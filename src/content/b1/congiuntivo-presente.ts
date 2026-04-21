@@ -63,6 +63,14 @@ Note: io/tu/lui share the same form — context makes the subject clear.
       },
     ],
   },
+  vocabulary: [
+    { word: "penso che sia", translation: "I think it is", example: "Penso che questo libro sia molto utile.", exampleTranslation: "I think this book is very useful." },
+    { word: "credo che abbia", translation: "I believe he/she has", example: "Credo che Luca abbia ragione.", exampleTranslation: "I believe Luca is right." },
+    { word: "spero che venga", translation: "I hope he/she comes", example: "Spero che venga anche Anna alla festa.", exampleTranslation: "I hope Anna comes to the party too." },
+    { word: "voglio che tu faccia", translation: "I want you to do", example: "Voglio che tu faccia del tuo meglio.", exampleTranslation: "I want you to do your best." },
+    { word: "dubito che sia vero", translation: "I doubt it is true", example: "Dubito che sia vero quello che dice.", exampleTranslation: "I doubt that what he says is true." },
+    { word: "bisogna che", translation: "it is necessary that", example: "Bisogna che tu studi di piu.", exampleTranslation: "It is necessary that you study more." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

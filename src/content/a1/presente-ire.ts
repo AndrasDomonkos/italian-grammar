@@ -62,6 +62,14 @@ Note: the voi form is **-ite** for -ire verbs, compared to **-ate** (-are) and *
       },
     ],
   },
+  vocabulary: [
+    { word: "dormire", translation: "to sleep", example: "Dormo otto ore ogni notte.", exampleTranslation: "I sleep eight hours every night." },
+    { word: "partire", translation: "to leave", example: "Partiamo domani mattina.", exampleTranslation: "We leave tomorrow morning." },
+    { word: "sentire", translation: "to hear", example: "Sento una bella melodia.", exampleTranslation: "I hear a beautiful melody." },
+    { word: "aprire", translation: "to open", example: "Apri la finestra, per favore.", exampleTranslation: "Open the window, please." },
+    { word: "finire", translation: "to finish", example: "Finisco i compiti alle cinque.", exampleTranslation: "I finish homework at five." },
+    { word: "capire", translation: "to understand", example: "Capite la lezione di grammatica?", exampleTranslation: "Do you understand the grammar lesson?" },
+  ],
   exercises: [
     {
       type: 'fill-blank',

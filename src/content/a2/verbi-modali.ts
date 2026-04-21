@@ -57,6 +57,14 @@ In spoken Italian, **avere** is increasingly used for all modals regardless of t
       },
     ],
   },
+  vocabulary: [
+    { word: "devo", translation: "I must / I have to", example: "Devo partire entro le otto.", exampleTranslation: "I must leave by eight." },
+    { word: "posso", translation: "I can / I am able to", example: "Posso usare il tuo telefono?", exampleTranslation: "Can I use your phone?" },
+    { word: "voglio", translation: "I want", example: "Voglio imparare a suonare la chitarra.", exampleTranslation: "I want to learn to play the guitar." },
+    { word: "sapere", translation: "to know how to", example: "Sa nuotare molto bene.", exampleTranslation: "He/she knows how to swim very well." },
+    { word: "non posso", translation: "I cannot", example: "Non posso venire alla festa stasera.", exampleTranslation: "I cannot come to the party tonight." },
+    { word: "dovresti", translation: "you should", example: "Dovresti mangiare piu frutta e verdura.", exampleTranslation: "You should eat more fruit and vegetables." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

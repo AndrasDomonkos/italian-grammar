@@ -56,6 +56,14 @@ The participle is the unchanging core in **avere** sentences, but **agrees with 
       },
     ],
   },
+  vocabulary: [
+    { word: "fatto", translation: "done / made", example: "Ho fatto i compiti dopo cena.", exampleTranslation: "I did the homework after dinner." },
+    { word: "detto", translation: "said / told", example: "Ha detto la verita al professore.", exampleTranslation: "He told the truth to the teacher." },
+    { word: "scritto", translation: "written", example: "Abbiamo scritto una email al direttore.", exampleTranslation: "We wrote an email to the director." },
+    { word: "aperto", translation: "opened", example: "Ho aperto la finestra perche fa caldo.", exampleTranslation: "I opened the window because it is hot." },
+    { word: "preso", translation: "taken", example: "Ha preso il treno delle otto.", exampleTranslation: "He took the eight o'clock train." },
+    { word: "visto", translation: "seen", example: "Avete visto il nuovo film di Sorrentino?", exampleTranslation: "Have you seen the new Sorrentino film?" },
+  ],
   exercises: [
     {
       type: 'fill-blank',

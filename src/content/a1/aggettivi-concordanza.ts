@@ -61,6 +61,14 @@ After the noun or after essere, both adjectives use their regular forms: *bello 
       },
     ],
   },
+  vocabulary: [
+    { word: 'bello', translation: 'beautiful, handsome', example: 'È un bel ragazzo molto simpatico.', exampleTranslation: 'He is a handsome and very friendly guy.' },
+    { word: 'piccolo', translation: 'small, little', example: 'Abito in un piccolo appartamento.', exampleTranslation: 'I live in a small apartment.' },
+    { word: 'nuovo', translation: 'new', example: 'Ho comprato una macchina nuova.', exampleTranslation: 'I bought a new car.' },
+    { word: 'vecchio', translation: 'old', example: 'Il vecchio castello è bellissimo.', exampleTranslation: 'The old castle is very beautiful.' },
+    { word: 'bravo', translation: 'good (at sth), talented', example: 'Sei molto bravo in matematica.', exampleTranslation: 'You are very good at mathematics.' },
+    { word: 'alto', translation: 'tall, high', example: 'Marco è più alto di me.', exampleTranslation: 'Marco is taller than me.' },
+  ],
   exercises: [
     {
       type: 'fill-blank',

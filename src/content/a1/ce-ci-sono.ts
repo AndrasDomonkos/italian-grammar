@@ -59,6 +59,14 @@ The key distinction: **c'è** = existence ("there IS a museum"), **è** = locati
       },
     ],
   },
+  vocabulary: [
+    { word: "c'è", translation: "there is", example: "C'è un supermercato in questa via.", exampleTranslation: "There is a supermarket on this street." },
+    { word: "ci sono", translation: "there are", example: "Ci sono tre finestre in questa stanza.", exampleTranslation: "There are three windows in this room." },
+    { word: "non c'è", translation: "there is not", example: "Non c'è latte in frigo.", exampleTranslation: "There is no milk in the fridge." },
+    { word: "quanti", translation: "how many", example: "Quanti studenti ci sono in classe?", exampleTranslation: "How many students are there in class?" },
+    { word: "quanto costa", translation: "how much does it cost", example: "Quanto costa questo cappuccino?", exampleTranslation: "How much does this cappuccino cost?" },
+    { word: "niente", translation: "nothing", example: "Non c'è niente da mangiare.", exampleTranslation: "There is nothing to eat." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

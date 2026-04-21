@@ -70,6 +70,14 @@ Italian has eight core simple prepositions. Unlike English, each has a fairly pr
       },
     ],
   },
+  vocabulary: [
+    { word: "vicino a", translation: "near / close to", example: "La farmacia è vicino alla stazione.", exampleTranslation: "The pharmacy is near the station." },
+    { word: "lontano da", translation: "far from", example: "Il supermercato è lontano da qui.", exampleTranslation: "The supermarket is far from here." },
+    { word: "davanti a", translation: "in front of", example: "Ti aspetto davanti al cinema.", exampleTranslation: "I will wait for you in front of the cinema." },
+    { word: "dietro a", translation: "behind", example: "Il gatto dorme dietro al divano.", exampleTranslation: "The cat sleeps behind the sofa." },
+    { word: "sopra", translation: "above / on top", example: "Il libro è sopra il tavolo.", exampleTranslation: "The book is on top of the table." },
+    { word: "sotto", translation: "under / below", example: "Le chiavi sono sotto la borsa.", exampleTranslation: "The keys are under the bag." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

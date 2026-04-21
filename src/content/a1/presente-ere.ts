@@ -60,6 +60,14 @@ The three bolded forms are different between -are and -ere.`,
       },
     ],
   },
+  vocabulary: [
+    { word: "leggere", translation: "to read", example: "Leggo un libro interessante.", exampleTranslation: "I read an interesting book." },
+    { word: "scrivere", translation: "to write", example: "Scrivi una lettera alla nonna.", exampleTranslation: "You write a letter to grandma." },
+    { word: "vedere", translation: "to see", example: "Vediamo il mare dalla finestra.", exampleTranslation: "We see the sea from the window." },
+    { word: "prendere", translation: "to take", example: "Prendo un caffe al bar.", exampleTranslation: "I take a coffee at the bar." },
+    { word: "credere", translation: "to believe", example: "Credo che sia vero.", exampleTranslation: "I believe that it is true." },
+    { word: "chiedere", translation: "to ask", example: "Chiedo informazioni alla reception.", exampleTranslation: "I ask for information at the reception." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

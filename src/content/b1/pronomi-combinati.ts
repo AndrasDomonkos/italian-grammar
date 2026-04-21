@@ -59,6 +59,14 @@ When combined pronouns precede avere, the participle agrees with the **direct** 
       },
     ],
   },
+  vocabulary: [
+    { word: "me lo", translation: "it to me", example: "Me lo puoi spiegare ancora una volta?", exampleTranslation: "Can you explain it to me one more time?" },
+    { word: "te la", translation: "it (fem.) to you", example: "Te la mando per email domani.", exampleTranslation: "I will send it to you by email tomorrow." },
+    { word: "glielo", translation: "it to him/her", example: "Glielo ho detto stamattina.", exampleTranslation: "I told it to him/her this morning." },
+    { word: "ce ne", translation: "of it to us", example: "Ce ne ha parlato a lungo.", exampleTranslation: "He/she talked to us about it at length." },
+    { word: "ve li", translation: "them (masc.) to you (pl.)", example: "Ve li porto domani senza fallo.", exampleTranslation: "I will bring them to you tomorrow without fail." },
+    { word: "gliene", translation: "of it/them to him/her/them", example: "Gliene ho comprati tre al mercato.", exampleTranslation: "I bought three of them for him/her at the market." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

@@ -54,6 +54,14 @@ BUT: article returns if the family noun is plural, modified by an adjective, or 
       },
     ],
   },
+  vocabulary: [
+    { word: "il mio zaino", translation: "my backpack", example: "Il mio zaino è pesante oggi.", exampleTranslation: "My backpack is heavy today." },
+    { word: "la tua casa", translation: "your house", example: "La tua casa è molto bella.", exampleTranslation: "Your house is very beautiful." },
+    { word: "suo padre", translation: "his/her father", example: "Suo padre è medico.", exampleTranslation: "His/her father is a doctor." },
+    { word: "i nostri amici", translation: "our friends", example: "I nostri amici vengono a cena.", exampleTranslation: "Our friends are coming to dinner." },
+    { word: "la vostra scuola", translation: "your school", example: "La vostra scuola è vicina al centro.", exampleTranslation: "Your school is close to the centre." },
+    { word: "i loro figli", translation: "their children", example: "I loro figli studiano molto.", exampleTranslation: "Their children study a lot." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

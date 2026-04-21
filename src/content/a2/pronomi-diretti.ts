@@ -58,6 +58,14 @@ When **lo/la/li/le** precede the auxiliary **avere**, the participle **agrees** 
       },
     ],
   },
+  vocabulary: [
+    { word: "lo", translation: "him / it (masc.)", example: "Conosco Marco — lo vedo ogni giorno.", exampleTranslation: "I know Marco — I see him every day." },
+    { word: "la", translation: "her / it (fem.)", example: "Questa torta? La mangio volentieri!", exampleTranslation: "This cake? I eat it gladly!" },
+    { word: "li", translation: "them (masc./mixed)", example: "I libri? Li ho comprati ieri.", exampleTranslation: "The books? I bought them yesterday." },
+    { word: "le", translation: "them (fem.)", example: "Le chiavi? Le ho messe sul tavolo.", exampleTranslation: "The keys? I put them on the table." },
+    { word: "mi", translation: "me", example: "Mi chiami domani, per favore?", exampleTranslation: "Can you call me tomorrow, please?" },
+    { word: "ci", translation: "us", example: "Il professore ci ha salutato.", exampleTranslation: "The teacher greeted us." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

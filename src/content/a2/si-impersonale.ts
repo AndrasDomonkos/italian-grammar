@@ -59,6 +59,14 @@ The distinction is subtle — both use si + verb. The key is: if there is a spec
       },
     ],
   },
+  vocabulary: [
+    { word: "si mangia", translation: "one eats / you eat", example: "In Italia si mangia bene ovunque.", exampleTranslation: "In Italy one eats well everywhere." },
+    { word: "si parla", translation: "one speaks / people speak", example: "In Svizzera si parlano quattro lingue.", exampleTranslation: "In Switzerland four languages are spoken." },
+    { word: "si dice", translation: "one says / they say", example: "Si dice che Roma sia la citta eterna.", exampleTranslation: "They say that Rome is the eternal city." },
+    { word: "si puo", translation: "one can / you can", example: "Qui non si puo fumare.", exampleTranslation: "Smoking is not allowed here." },
+    { word: "si vede", translation: "one sees / you can see", example: "Da qui si vede il mare.", exampleTranslation: "From here you can see the sea." },
+    { word: "si sa", translation: "one knows / it is known", example: "Si sa che dormire poco fa male.", exampleTranslation: "It is well known that sleeping little is bad for you." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

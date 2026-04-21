@@ -62,6 +62,14 @@ Only a few verbs are irregular in the imperfect:
       },
     ],
   },
+  vocabulary: [
+    { word: "studiavo", translation: "I used to study", example: "Da bambino studiavo il pianoforte.", exampleTranslation: "As a child I used to study piano." },
+    { word: "abitava", translation: "he/she used to live", example: "Mia nonna abitava in un piccolo paese.", exampleTranslation: "My grandmother used to live in a small village." },
+    { word: "andavamo", translation: "we used to go", example: "D'estate andavamo sempre al mare.", exampleTranslation: "In summer we used to go to the sea." },
+    { word: "era", translation: "was / used to be", example: "Il tempo era bellissimo ieri.", exampleTranslation: "The weather was beautiful yesterday." },
+    { word: "giocavano", translation: "they used to play", example: "I bambini giocavano in giardino.", exampleTranslation: "The children used to play in the garden." },
+    { word: "capivo", translation: "I understood", example: "Non capivo bene il francese allora.", exampleTranslation: "I did not understand French well back then." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

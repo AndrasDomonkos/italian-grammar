@@ -59,6 +59,14 @@ The verb *piacere* (to please/like) uses indirect pronouns:
       },
     ],
   },
+  vocabulary: [
+    { word: "mi", translation: "to me", example: "Mi ha scritto una lettera bellissima.", exampleTranslation: "He wrote me a beautiful letter." },
+    { word: "ti", translation: "to you", example: "Ti mando il documento via email.", exampleTranslation: "I will send you the document by email." },
+    { word: "gli", translation: "to him", example: "Gli ho dato un consiglio importante.", exampleTranslation: "I gave him an important piece of advice." },
+    { word: "le", translation: "to her", example: "Le ho portato dei fiori.", exampleTranslation: "I brought her some flowers." },
+    { word: "ci", translation: "to us", example: "Il capo ci ha spiegato il piano.", exampleTranslation: "The boss explained the plan to us." },
+    { word: "gli", translation: "to them", example: "Gli ho raccontato tutto.", exampleTranslation: "I told them everything." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

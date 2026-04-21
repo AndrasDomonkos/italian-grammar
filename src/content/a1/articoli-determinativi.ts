@@ -68,6 +68,15 @@ Every Italian noun is either **masculine** or **feminine**, and either **singula
       },
     ],
   },
+  vocabulary: [
+    { word: 'il gatto', translation: 'the cat', example: 'Il gatto dorme sul divano.', exampleTranslation: 'The cat sleeps on the sofa.' },
+    { word: 'la casa', translation: 'the house', example: 'La casa è grande e bella.', exampleTranslation: 'The house is big and beautiful.' },
+    { word: 'lo studente', translation: 'the student (m.)', example: 'Lo studente studia italiano.', exampleTranslation: 'The student studies Italian.' },
+    { word: 'la scuola', translation: 'the school', example: 'La scuola inizia alle otto.', exampleTranslation: 'School starts at eight.' },
+    { word: 'il libro', translation: 'the book', example: 'Il libro è sul tavolo.', exampleTranslation: 'The book is on the table.' },
+    { word: 'gli amici', translation: 'the friends', example: 'Gli amici vengono a cena.', exampleTranslation: 'The friends are coming to dinner.' },
+    { word: 'le ragazze', translation: 'the girls', example: 'Le ragazze parlano italiano.', exampleTranslation: 'The girls speak Italian.' },
+  ],
   exercises: [
     {
       type: 'fill-blank',

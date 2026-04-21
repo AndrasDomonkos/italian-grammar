@@ -66,6 +66,14 @@ Sometimes the if-clause is past but the result is present (or vice versa):
       },
     ],
   },
+  vocabulary: [
+    { word: "se studio, passo", translation: "if I study, I pass", example: "Se studio ogni giorno, passo l'esame.", exampleTranslation: "If I study every day, I pass the exam." },
+    { word: "se studiassi, passerei", translation: "if I studied, I would pass", example: "Se studiassi di piu, passerei con lode.", exampleTranslation: "If I studied more, I would pass with distinction." },
+    { word: "se avessi studiato, avrei passato", translation: "if I had studied, I would have passed", example: "Se avessi studiato, avrei passato l'esame.", exampleTranslation: "If I had studied, I would have passed the exam." },
+    { word: "a meno che non", translation: "unless", example: "Vengo, a meno che non piova.", exampleTranslation: "I will come, unless it rains." },
+    { word: "nel caso in cui", translation: "in the event that", example: "Nel caso in cui arrivi tardi, chiamami.", exampleTranslation: "In the event that you arrive late, call me." },
+    { word: "purche", translation: "provided that", example: "Vengo purche tu mi porti a casa.", exampleTranslation: "I will come provided that you take me home." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

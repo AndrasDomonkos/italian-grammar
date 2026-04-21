@@ -61,6 +61,14 @@ The **congiuntivo trapassato** expresses a completed past action in a dependent 
       },
     ],
   },
+  vocabulary: [
+    { word: "se avessi saputo", translation: "if I had known", example: "Se avessi saputo, sarei venuto prima.", exampleTranslation: "If I had known, I would have come earlier." },
+    { word: "avrei voluto che fosse venuto", translation: "I would have wanted him to come", example: "Avrei voluto che fosse venuto anche lui.", exampleTranslation: "I would have wanted him to come too." },
+    { word: "benche avesse studiato", translation: "although he had studied", example: "Benche avesse studiato, non ha superato la prova.", exampleTranslation: "Although he had studied, he did not pass the test." },
+    { word: "nel caso in cui avesse chiamato", translation: "in case he had called", example: "Nel caso in cui avesse chiamato, rispondi tu.", exampleTranslation: "In case he had called, you answer." },
+    { word: "prima che fosse arrivato", translation: "before he had arrived", example: "Prima che fosse arrivato, avevamo gia mangiato.", exampleTranslation: "Before he had arrived, we had already eaten." },
+    { word: "nonostante avesse detto", translation: "despite having said", example: "Nonostante avesse detto di no, venne lo stesso.", exampleTranslation: "Despite having said no, he came anyway." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

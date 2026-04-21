@@ -55,6 +55,14 @@ Both *questo* and *quello* can be used as pronouns (without a noun): *Prendo que
       },
     ],
   },
+  vocabulary: [
+    { word: "questo", translation: "this (masc.)", example: "Questo libro è molto interessante.", exampleTranslation: "This book is very interesting." },
+    { word: "questa", translation: "this (fem.)", example: "Questa pizza è deliziosa.", exampleTranslation: "This pizza is delicious." },
+    { word: "quello", translation: "that (masc.)", example: "Quello studente parla bene italiano.", exampleTranslation: "That student speaks Italian well." },
+    { word: "quella", translation: "that (fem.)", example: "Quella borsa è molto elegante.", exampleTranslation: "That bag is very elegant." },
+    { word: "questi", translation: "these (masc. pl.)", example: "Questi ragazzi giocano a calcio.", exampleTranslation: "These boys play football." },
+    { word: "quelle", translation: "those (fem. pl.)", example: "Quelle scarpe sono troppo care.", exampleTranslation: "Those shoes are too expensive." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

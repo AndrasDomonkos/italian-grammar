@@ -57,6 +57,14 @@ Both forms are often acceptable; the irregular is more formal.`,
       },
     ],
   },
+  vocabulary: [
+    { word: "piu... di", translation: "more... than", example: "Roma è piu grande di Firenze.", exampleTranslation: "Rome is bigger than Florence." },
+    { word: "meno... di", translation: "less... than", example: "Questo libro è meno interessante di quello.", exampleTranslation: "This book is less interesting than that one." },
+    { word: "tanto... quanto", translation: "as... as", example: "Luigi è tanto intelligente quanto sua sorella.", exampleTranslation: "Luigi is as intelligent as his sister." },
+    { word: "migliore di", translation: "better than", example: "Questo vino è migliore di quello dell'anno scorso.", exampleTranslation: "This wine is better than last year's." },
+    { word: "peggiore di", translation: "worse than", example: "Il traffico oggi è peggiore di ieri.", exampleTranslation: "The traffic today is worse than yesterday." },
+    { word: "maggiore di", translation: "greater / older than", example: "Mio fratello è maggiore di me di tre anni.", exampleTranslation: "My brother is three years older than me." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

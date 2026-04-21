@@ -69,6 +69,14 @@ With pronouns, they go **before** the verb: *Lo prenda.* (Take it, formal.)`,
       },
     ],
   },
+  vocabulary: [
+    { word: "ascolta!", translation: "listen! (tu)", example: "Ascolta bene quello che dico.", exampleTranslation: "Listen carefully to what I say." },
+    { word: "parla!", translation: "speak! (tu)", example: "Parla piu lentamente, per favore.", exampleTranslation: "Speak more slowly, please." },
+    { word: "non toccare!", translation: "do not touch! (tu)", example: "Non toccare quella pentola — e bollente!", exampleTranslation: "Do not touch that pot — it is boiling!" },
+    { word: "venga!", translation: "come! (Lei)", example: "Prego, venga pure dentro.", exampleTranslation: "Please, do come inside." },
+    { word: "andiamo!", translation: "let's go! (noi)", example: "Andiamo, e tardi!", exampleTranslation: "Let's go, it is late!" },
+    { word: "finite!", translation: "finish! (voi)", example: "Finite i compiti prima di uscire.", exampleTranslation: "Finish your homework before going out." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

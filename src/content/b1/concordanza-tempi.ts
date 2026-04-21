@@ -61,6 +61,14 @@ After verbs like *volere, sperare, credere* when **same subject**:
       },
     ],
   },
+  vocabulary: [
+    { word: "avevo appena mangiato quando", translation: "I had just eaten when", example: "Avevo appena mangiato quando e suonato il telefono.", exampleTranslation: "I had just eaten when the phone rang." },
+    { word: "dopo che ebbe detto", translation: "after he had said", example: "Dopo che ebbe detto cio, usci dalla stanza.", exampleTranslation: "After he had said that, he left the room." },
+    { word: "non appena arrivo", translation: "as soon as he arrived", example: "Non appena arrivo, ci saluto tutti.", exampleTranslation: "As soon as he arrived, he greeted everyone." },
+    { word: "prima di parlare", translation: "before speaking", example: "Prima di parlare, pensa bene a quello che vuoi dire.", exampleTranslation: "Before speaking, think carefully about what you want to say." },
+    { word: "avremmo finito se", translation: "we would have finished if", example: "Avremmo finito se avessimo avuto piu tempo.", exampleTranslation: "We would have finished if we had had more time." },
+    { word: "stava per uscire quando", translation: "he was about to leave when", example: "Stava per uscire quando ha iniziato a piovere.", exampleTranslation: "He was about to leave when it started to rain." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

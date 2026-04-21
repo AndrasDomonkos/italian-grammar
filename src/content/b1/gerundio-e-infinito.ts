@@ -74,6 +74,14 @@ The gerundio (present: -ando/-endo; past: avendo/essendo + participio) always re
       },
     ],
   },
+  vocabulary: [
+    { word: "studiando", translation: "by studying / while studying", example: "Studiando ogni giorno migliorero il mio italiano.", exampleTranslation: "By studying every day I will improve my Italian." },
+    { word: "pur essendo", translation: "even though being", example: "Pur essendo stanca, ha continuato a lavorare.", exampleTranslation: "Even though she was tired, she continued working." },
+    { word: "invece di", translation: "instead of", example: "Invece di lamentarti, cerca una soluzione.", exampleTranslation: "Instead of complaining, look for a solution." },
+    { word: "prima di partire", translation: "before leaving", example: "Prima di partire, controlla i documenti.", exampleTranslation: "Before leaving, check the documents." },
+    { word: "dopo aver mangiato", translation: "after having eaten", example: "Dopo aver mangiato, siamo usciti a passeggiare.", exampleTranslation: "After having eaten, we went out for a walk." },
+    { word: "senza sapere", translation: "without knowing", example: "Ha risposto senza sapere la risposta giusta.", exampleTranslation: "He answered without knowing the right answer." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

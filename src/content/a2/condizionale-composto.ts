@@ -55,6 +55,14 @@ As with passato prossimo, the participle agrees with the subject when using **es
       },
     ],
   },
+  vocabulary: [
+    { word: "avrei fatto", translation: "I would have done", example: "Avrei fatto di piu se avessi avuto tempo.", exampleTranslation: "I would have done more if I had had time." },
+    { word: "sarebbe venuto", translation: "he would have come", example: "Sarebbe venuto ma era malato.", exampleTranslation: "He would have come but he was ill." },
+    { word: "avrei detto", translation: "I would have said", example: "Non avrei mai detto una cosa del genere.", exampleTranslation: "I would never have said such a thing." },
+    { word: "saresti partita", translation: "you (f.) would have left", example: "Saresti partita prima?", exampleTranslation: "Would you have left earlier?" },
+    { word: "avremmo visto", translation: "we would have seen", example: "Avremmo visto il concerto se avessimo i biglietti.", exampleTranslation: "We would have seen the concert if we had the tickets." },
+    { word: "avrebbe potuto", translation: "he/she could have", example: "Avrebbe potuto telefonare prima.", exampleTranslation: "He/she could have called beforehand." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

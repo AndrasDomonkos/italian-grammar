@@ -97,12 +97,20 @@ export type Exercise =
   | ReorderExercise
   | TranslationExercise;
 
+export interface VocabWord {
+  word: string;
+  translation: string;
+  example: string;
+  exampleTranslation: string;
+}
+
 export interface Lesson {
   slug: string;
   title: string;
   level: Level;
   order: number;
   explanation: LessonExplanation;
+  vocabulary?: VocabWord[];
   exercises: Exercise[];
 }
 

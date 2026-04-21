@@ -67,6 +67,14 @@ The gerundio can also be used independently to express manner, cause, or time:
       },
     ],
   },
+  vocabulary: [
+    { word: "sto studiando", translation: "I am studying", example: "Non disturbarmi — sto studiando.", exampleTranslation: "Do not disturb me — I am studying." },
+    { word: "sta mangiando", translation: "he/she is eating", example: "Maria sta mangiando in cucina.", exampleTranslation: "Maria is eating in the kitchen." },
+    { word: "stiamo lavorando", translation: "we are working", example: "Stiamo lavorando a un progetto importante.", exampleTranslation: "We are working on an important project." },
+    { word: "stava dormendo", translation: "he/she was sleeping", example: "Quando sono arrivato, stava dormendo.", exampleTranslation: "When I arrived, he was sleeping." },
+    { word: "stanno parlando", translation: "they are talking", example: "Stanno parlando ad alta voce.", exampleTranslation: "They are talking loudly." },
+    { word: "stavo leggendo", translation: "I was reading", example: "Stavo leggendo quando ha suonato il campanello.", exampleTranslation: "I was reading when the doorbell rang." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

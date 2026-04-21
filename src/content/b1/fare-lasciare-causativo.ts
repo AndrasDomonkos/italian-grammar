@@ -61,6 +61,14 @@ Common practice: *L'ho fatta cantare.* (agreement with la = her).`,
       },
     ],
   },
+  vocabulary: [
+    { word: "far fare", translation: "to have something done", example: "Faccio riparare la macchina dal meccanico.", exampleTranslation: "I have the car repaired by the mechanic." },
+    { word: "far venire", translation: "to have someone come", example: "Il direttore ha fatto venire tutti i dipendenti.", exampleTranslation: "The director had all the employees come." },
+    { word: "lasciar andare", translation: "to let someone go", example: "Lasciami andare — ho un appuntamento!", exampleTranslation: "Let me go — I have an appointment!" },
+    { word: "si e fatto tagliare i capelli", translation: "he got his hair cut", example: "Si e fatto tagliare i capelli ieri.", exampleTranslation: "He got his hair cut yesterday." },
+    { word: "fa studiare", translation: "makes (someone) study", example: "La professoressa ci fa studiare ogni giorno.", exampleTranslation: "The teacher makes us study every day." },
+    { word: "lascia scegliere", translation: "lets (someone) choose", example: "Mi lascia scegliere il ristorante stasera.", exampleTranslation: "He lets me choose the restaurant tonight." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

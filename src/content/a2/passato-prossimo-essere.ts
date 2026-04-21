@@ -65,6 +65,14 @@ The past participle agrees with the **grammatical subject**:
       },
     ],
   },
+  vocabulary: [
+    { word: "sono andato", translation: "I went (masc.)", example: "Sono andato al mercato stamattina.", exampleTranslation: "I went to the market this morning." },
+    { word: "è arrivata", translation: "she arrived", example: "Maria è arrivata in ritardo.", exampleTranslation: "Maria arrived late." },
+    { word: "siamo partiti", translation: "we left", example: "Siamo partiti presto per evitare il traffico.", exampleTranslation: "We left early to avoid traffic." },
+    { word: "è nato", translation: "he was born", example: "Mio fratello è nato a Napoli.", exampleTranslation: "My brother was born in Naples." },
+    { word: "sono rimasta", translation: "I stayed (fem.)", example: "Sono rimasta a casa tutto il giorno.", exampleTranslation: "I stayed at home all day." },
+    { word: "è venuto", translation: "he came", example: "Il medico è venuto subito.", exampleTranslation: "The doctor came right away." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

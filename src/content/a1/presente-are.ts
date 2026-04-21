@@ -56,6 +56,14 @@ The Italian present tense translates three English forms:
       },
     ],
   },
+  vocabulary: [
+    { word: "parlare", translation: "to speak", example: "Io parlo italiano ogni giorno.", exampleTranslation: "I speak Italian every day." },
+    { word: "mangiare", translation: "to eat", example: "Noi mangiamo la pizza a cena.", exampleTranslation: "We eat pizza for dinner." },
+    { word: "lavorare", translation: "to work", example: "Lei lavora in un ufficio.", exampleTranslation: "She works in an office." },
+    { word: "ascoltare", translation: "to listen", example: "Lui ascolta la musica classica.", exampleTranslation: "He listens to classical music." },
+    { word: "camminare", translation: "to walk", example: "Camminiamo nel parco insieme.", exampleTranslation: "We walk in the park together." },
+    { word: "comprare", translation: "to buy", example: "Compro il pane al supermercato.", exampleTranslation: "I buy bread at the supermarket." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

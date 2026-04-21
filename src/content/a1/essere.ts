@@ -67,6 +67,14 @@ Both mean "to be", but **stare** expresses temporary states and health: *Come st
       },
     ],
   },
+  vocabulary: [
+    { word: 'sono', translation: 'I am', example: 'Sono italiano e ho ventidue anni.', exampleTranslation: 'I am Italian and I am twenty-two years old.' },
+    { word: 'medico', translation: 'doctor', example: 'Mia madre è medico.', exampleTranslation: 'My mother is a doctor.' },
+    { word: 'stanco', translation: 'tired', example: 'Siamo stanchi dopo il lavoro.', exampleTranslation: 'We are tired after work.' },
+    { word: 'simpatico', translation: 'nice, friendly', example: 'Il professore è molto simpatico.', exampleTranslation: 'The professor is very friendly.' },
+    { word: 'di dove', translation: 'from where', example: 'Di dove sei? Sono di Roma.', exampleTranslation: 'Where are you from? I am from Rome.' },
+    { word: 'insieme', translation: 'together', example: 'Siamo insieme a scuola.', exampleTranslation: 'We are together at school.' },
+  ],
   exercises: [
     {
       type: 'fill-blank',

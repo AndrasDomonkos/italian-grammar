@@ -62,6 +62,14 @@ export const connettivisCoesione: Lesson = {
       },
     ],
   },
+  vocabulary: [
+    { word: "tuttavia", translation: "however / nevertheless", example: "E un progetto difficile; tuttavia, vale la pena tentare.", exampleTranslation: "It is a difficult project; however, it is worth trying." },
+    { word: "pertanto", translation: "therefore / consequently", example: "Il budget e limitato; pertanto dobbiamo ridurre le spese.", exampleTranslation: "The budget is limited; therefore we must reduce spending." },
+    { word: "nonostante", translation: "despite / although", example: "Nonostante la pioggia, siamo usciti lo stesso.", exampleTranslation: "Despite the rain, we went out anyway." },
+    { word: "inoltre", translation: "furthermore / in addition", example: "E bravo in matematica; inoltre, suona il violino.", exampleTranslation: "He is good at maths; furthermore, he plays the violin." },
+    { word: "di conseguenza", translation: "as a consequence", example: "Ha dormito poco; di conseguenza, era stanchissimo.", exampleTranslation: "He slept little; as a consequence, he was very tired." },
+    { word: "affinche", translation: "so that / in order that", example: "Ti spiego tutto affinche tu capisca bene.", exampleTranslation: "I explain everything to you so that you understand well." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

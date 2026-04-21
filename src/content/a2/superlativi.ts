@@ -60,6 +60,14 @@ The same adjectives with irregular comparatives also have irregular superlatives
       },
     ],
   },
+  vocabulary: [
+    { word: "il piu bello", translation: "the most beautiful", example: "E il piu bello dei musei che ho visitato.", exampleTranslation: "It is the most beautiful of the museums I have visited." },
+    { word: "il migliore", translation: "the best", example: "E il migliore ristorante della citta.", exampleTranslation: "It is the best restaurant in the city." },
+    { word: "altissimo", translation: "very tall / extremely tall", example: "Il Monte Bianco è altissimo.", exampleTranslation: "Mont Blanc is extremely tall." },
+    { word: "buonissimo", translation: "very good / delicious", example: "Questa pasta è buonissima!", exampleTranslation: "This pasta is absolutely delicious!" },
+    { word: "il peggiore", translation: "the worst", example: "E stato il peggior film della stagione.", exampleTranslation: "It was the worst film of the season." },
+    { word: "il piu caro", translation: "the most expensive", example: "Questo negozio vende i prodotti piu cari.", exampleTranslation: "This shop sells the most expensive products." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

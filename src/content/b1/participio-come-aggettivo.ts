@@ -65,6 +65,14 @@ Less common as a verbal form in modern Italian.`,
       },
     ],
   },
+  vocabulary: [
+    { word: "stanco", translation: "tired (masc.)", example: "Sono tornato a casa stanco dopo una lunga giornata.", exampleTranslation: "I came home tired after a long day." },
+    { word: "aperto", translation: "open", example: "Il negozio e aperto fino alle nove di sera.", exampleTranslation: "The shop is open until nine in the evening." },
+    { word: "scritto a mano", translation: "handwritten", example: "Ha consegnato una lettera scritta a mano.", exampleTranslation: "He handed in a handwritten letter." },
+    { word: "la porta chiusa", translation: "the closed door", example: "Ha bussato alla porta chiusa.", exampleTranslation: "She knocked on the closed door." },
+    { word: "una storia raccontata", translation: "a story told", example: "E una storia raccontata da generazioni.", exampleTranslation: "It is a story told by generations." },
+    { word: "cotto al forno", translation: "baked / oven-cooked", example: "Preferisco il pesce cotto al forno.", exampleTranslation: "I prefer oven-baked fish." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

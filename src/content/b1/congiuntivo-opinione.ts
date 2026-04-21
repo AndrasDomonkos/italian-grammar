@@ -60,6 +60,14 @@ When the subject is the **same** in both clauses → **di + infinitive** (no con
       },
     ],
   },
+  vocabulary: [
+    { word: "secondo me", translation: "in my opinion", example: "Secondo me, questa soluzione e la migliore.", exampleTranslation: "In my opinion, this solution is the best." },
+    { word: "a mio avviso", translation: "in my view", example: "A mio avviso bisogna cambiare strategia.", exampleTranslation: "In my view, we need to change strategy." },
+    { word: "ritengo che", translation: "I consider that", example: "Ritengo che il clima stia cambiando rapidamente.", exampleTranslation: "I consider that the climate is changing rapidly." },
+    { word: "sembra che", translation: "it seems that", example: "Sembra che il progetto vada bene.", exampleTranslation: "It seems that the project is going well." },
+    { word: "non mi sembra che", translation: "it does not seem to me that", example: "Non mi sembra che sia una buona idea.", exampleTranslation: "It does not seem to me that it is a good idea." },
+    { word: "e ovvio che", translation: "it is obvious that", example: "E ovvio che ci voglia piu tempo.", exampleTranslation: "It is obvious that more time is needed." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

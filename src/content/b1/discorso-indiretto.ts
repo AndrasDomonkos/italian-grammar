@@ -64,6 +64,14 @@ When the reporting verb is in the **past** (ha detto, disse, ha riferito…), te
       },
     ],
   },
+  vocabulary: [
+    { word: "ha detto che", translation: "he/she said that", example: "Ha detto che era stanco e voleva dormire.", exampleTranslation: "He said that he was tired and wanted to sleep." },
+    { word: "mi ha chiesto se", translation: "he/she asked me whether", example: "Mi ha chiesto se capivo la lezione.", exampleTranslation: "He asked me whether I understood the lesson." },
+    { word: "ha risposto che", translation: "he/she replied that", example: "Ha risposto che non poteva venire.", exampleTranslation: "She replied that she could not come." },
+    { word: "mi ha detto di fare", translation: "he/she told me to do", example: "Mi ha detto di aspettare fuori.", exampleTranslation: "He told me to wait outside." },
+    { word: "ha aggiunto che", translation: "he/she added that", example: "Ha aggiunto che il progetto era quasi finito.", exampleTranslation: "He added that the project was almost finished." },
+    { word: "ha spiegato che", translation: "he/she explained that", example: "Ha spiegato che le regole erano cambiate.", exampleTranslation: "She explained that the rules had changed." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

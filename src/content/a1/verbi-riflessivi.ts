@@ -56,6 +56,14 @@ Remove **-si** from the infinitive, conjugate the remaining verb normally, add t
       },
     ],
   },
+  vocabulary: [
+    { word: "svegliarsi", translation: "to wake up", example: "Mi sveglio alle sette di mattina.", exampleTranslation: "I wake up at seven in the morning." },
+    { word: "alzarsi", translation: "to get up", example: "Ti alzi tardi il fine settimana?", exampleTranslation: "Do you get up late at the weekend?" },
+    { word: "lavarsi", translation: "to wash oneself", example: "Si lava i denti due volte al giorno.", exampleTranslation: "She brushes her teeth twice a day." },
+    { word: "vestirsi", translation: "to get dressed", example: "Mi vesto in fretta la mattina.", exampleTranslation: "I get dressed quickly in the morning." },
+    { word: "chiamarsi", translation: "to be called", example: "Come ti chiami?", exampleTranslation: "What is your name?" },
+    { word: "addormentarsi", translation: "to fall asleep", example: "Mi addormento subito dopo cena.", exampleTranslation: "I fall asleep right after dinner." },
+  ],
   exercises: [
     {
       type: 'fill-blank',

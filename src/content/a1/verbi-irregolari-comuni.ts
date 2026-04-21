@@ -55,6 +55,14 @@ Five extremely frequent Italian verbs are highly irregular in the present tense 
       },
     ],
   },
+  vocabulary: [
+    { word: "andare", translation: "to go", example: "Vado a scuola in bicicletta.", exampleTranslation: "I go to school by bike." },
+    { word: "venire", translation: "to come", example: "Vieni a casa mia stasera?", exampleTranslation: "Are you coming to my place tonight?" },
+    { word: "fare", translation: "to do / make", example: "Facciamo una passeggiata nel parco.", exampleTranslation: "We take a walk in the park." },
+    { word: "dare", translation: "to give", example: "Do un regalo a mia sorella.", exampleTranslation: "I give a present to my sister." },
+    { word: "stare", translation: "to stay / be", example: "Stai bene oggi?", exampleTranslation: "Are you well today?" },
+    { word: "uscire", translation: "to go out", example: "Esco con gli amici il sabato sera.", exampleTranslation: "I go out with friends on Saturday evenings." },
+  ],
   exercises: [
     {
       type: 'fill-blank',
