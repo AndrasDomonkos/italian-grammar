@@ -4,7 +4,7 @@ import { signToken } from '@/lib/auth';
 import { getRedis } from '@/lib/redis';
 
 export async function POST(req: Request) {
-  const { username, password } = await req.json() as { username: string; password: string };
+  const { username, password, rememberMe } = await req.json() as { username: string; password: string; rememberMe?: boolean };
 
   if (!username || !password) {
     return NextResponse.json({ error: 'Username and password are required.' }, { status: 400 });
@@ -28,7 +28,7 @@ export async function POST(req: Request) {
       httpOnly: true,
       secure: process.env.NODE_ENV === 'production',
       sameSite: 'lax',
-      maxAge: 60 * 60 * 24 * 30,
+      ...(rememberMe ? { maxAge: 60 * 60 * 24 * 30 } : {}),
       path: '/',
     });
     return res;
