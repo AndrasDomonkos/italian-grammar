@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx shadcn@latest *)",
+      "Read(//c/Users/andra/AppData/Local/Temp/claude/C--Users-andra-italian-grammar/55dfda65-15c9-45e3-96bd-408dae6ba84f/tasks/**)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:3100)",
+      "Bash(curl -s http://localhost:3100/a1/articoli-determinativi)",
+      "Bash(curl -s http://localhost:3100/a1)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
+    ]
+  }
+}
