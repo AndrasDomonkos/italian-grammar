@@ -1,7 +1,7 @@
 import { headers } from 'next/headers';
-import { kv } from '@vercel/kv';
 import { NextResponse } from 'next/server';
 import type { AppProgress } from '@/content/types';
+import { getRedis } from '@/lib/redis';
 
 export async function GET() {
   const h = await headers();
@@ -9,7 +9,8 @@ export async function GET() {
   if (!username) return NextResponse.json({ lessons: {} });
 
   try {
-    const data = await kv.get<AppProgress>(`progress:${username}`);
+    const redis = getRedis();
+    const data = await redis.get<AppProgress>(`progress:${username}`);
     return NextResponse.json(data ?? { lessons: {} });
   } catch {
     return NextResponse.json({ lessons: {} });
@@ -22,8 +23,9 @@ export async function POST(req: Request) {
   if (!username) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
 
   try {
+    const redis = getRedis();
     const body = await req.json() as AppProgress;
-    await kv.set(`progress:${username}`, body);
+    await redis.set(`progress:${username}`, body);
     return NextResponse.json({ ok: true });
   } catch {
     return NextResponse.json({ error: 'Storage unavailable' }, { status: 503 });
