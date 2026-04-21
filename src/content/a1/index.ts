@@ -17,6 +17,7 @@ import { piaceBase } from './piacere-base';
 import { verbiRiflessivi } from './verbi-riflessivi';
 import { numeriOraData } from './numeri-ora-data';
 import { passatoProssimoIntro } from './passato-prossimo-intro';
+import { verbiEssenzialiPresente } from './verbi-essenziali-presente';
 
 export const a1Lessons: Lesson[] = [
   articoliDeterminativi,
@@ -37,4 +38,5 @@ export const a1Lessons: Lesson[] = [
   verbiRiflessivi,
   numeriOraData,
   passatoProssimoIntro,
+  verbiEssenzialiPresente,
 ];

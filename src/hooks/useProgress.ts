@@ -20,11 +20,35 @@ function save(p: AppProgress): void {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(p));
 }
 
+async function pushToServer(p: AppProgress): Promise<void> {
+  try {
+    await fetch('/api/progress', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(p),
+    });
+  } catch {
+    // silently fail — localStorage is the source of truth
+  }
+}
+
 export function useProgress() {
   const [progress, setProgress] = useState<AppProgress>({ lessons: {} });
 
   useEffect(() => {
-    setProgress(load());
+    const local = load();
+    setProgress(local);
+
+    // Merge server progress (server wins for lessons that exist on both)
+    fetch('/api/progress')
+      .then((r) => (r.ok ? r.json() : null))
+      .then((server: AppProgress | null) => {
+        if (!server || Object.keys(server.lessons).length === 0) return;
+        const merged: AppProgress = { lessons: { ...local.lessons, ...server.lessons } };
+        save(merged);
+        setProgress(merged);
+      })
+      .catch(() => {/* offline or unauthenticated — use localStorage */});
   }, []);
 
   const getLessonProgress = useCallback(
@@ -36,11 +60,10 @@ export function useProgress() {
   const updateLessonProgress = useCallback(
     (lp: LessonProgress) => {
       const key = `${lp.level}/${lp.slug}`;
-      const next: AppProgress = {
-        lessons: { ...progress.lessons, [key]: lp },
-      };
+      const next: AppProgress = { lessons: { ...progress.lessons, [key]: lp } };
       setProgress(next);
       save(next);
+      void pushToServer(next);
     },
     [progress],
   );
@@ -53,6 +76,7 @@ export function useProgress() {
       const next: AppProgress = { lessons: rest };
       setProgress(next);
       save(next);
+      void pushToServer(next);
     },
     [progress],
   );

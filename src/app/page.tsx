@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { getLessonsByLevel } from '@/content';
 import { Badge } from '@/components/ui/badge';
 import { ChevronRight, BookOpen, Star, Trophy } from 'lucide-react';
+import { AuthNav } from '@/components/auth-nav';
 
 const LEVELS = [
   {
@@ -46,6 +47,13 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-background">
+      {/* Top nav */}
+      <div className="border-b bg-card">
+        <div className="max-w-2xl mx-auto px-4 py-2 flex justify-end">
+          <AuthNav />
+        </div>
+      </div>
+
       {/* Hero */}
       <div className="border-b bg-card">
         <div className="max-w-2xl mx-auto px-4 py-12 text-center space-y-4">
